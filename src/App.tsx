@@ -15,7 +15,7 @@ function App() {
         </h2>
         <button
           onClick={()=>{
-            if(current === 6) return navigate(`/pregunta/1`)
+            if(current === 36) return navigate(`/pregunta/1`)
             return navigate(`/pregunta/${current+1}`)
           }}
         >
